@@ -18,57 +18,46 @@ int main() {
 #pragma region Sprite Setup
 	sf::Texture bg01;
 	if (!bg01.loadFromFile("bgs/_01_ground.png")) {
-		std::cout << "Faield to load dis nigga";
 	}
 
 	sf::Texture bg02;
 	if (!bg02.loadFromFile("bgs/_02_trees and bushes.png")) {
-		std::cout << "Faield to load dis nigga";
 	}
 
 	sf::Texture bg03;
 	if (!bg03.loadFromFile("bgs/_03_distant_trees.png")) {
-		std::cout << "Faield to load dis nigga";
 	}
 
 	sf::Texture bg04;
 	if (!bg04.loadFromFile("bgs/_04_bushes.png")) {
-		std::cout << "Faield to load dis nigga";
 	}
 
 	sf::Texture bg05;
 	if (!bg05.loadFromFile("bgs/_05_hill1.png")) {
-		std::cout << "Faield to load dis nigga";
 	}
 
 	sf::Texture bg06;
 	if (!bg06.loadFromFile("bgs/_06_hill2.png")) {
-		std::cout << "Faield to load dis nigga";
 	}
 
 	sf::Texture bg07;
 	if (!bg07.loadFromFile("bgs/_07_huge_clouds.png")) {
-		std::cout << "Faield to load dis nigga";
 	}
 
 	sf::Texture bg08;
 	if (!bg08.loadFromFile("bgs/_08_clouds.png")) {
-		std::cout << "Faield to load dis nigga";
 	}
 
 	sf::Texture bg09;
 	if (!bg09.loadFromFile("bgs/_09_distant_clouds1.png")) {
-		std::cout << "Faield to load dis nigga";
 	}
 
 	sf::Texture bg10;
 	if (!bg10.loadFromFile("bgs/_10_distant_clouds.png")) {
-		std::cout << "Faield to load dis nigga";
 	}
 
 	sf::Texture bg11;
 	if (!bg11.loadFromFile("bgs/_11_background.png")) {
-		std::cout << "Faield to load dis nigga";
 	}
 
 	sprites.push_back(sf::Sprite(bg11));
